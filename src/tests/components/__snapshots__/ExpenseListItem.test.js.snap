@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Expense List Item from list of expenses 1`] = `
+<div>
+  <NavLink
+    className={[Function]}
+    end={true}
+    to="/edit/1"
+  >
+    <h3>
+      Gum
+    </h3>
+  </NavLink>
+  <p>
+    195
+     - 
+    54 years ago
+  </p>
+</div>
+`;
