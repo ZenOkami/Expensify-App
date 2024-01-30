@@ -11,9 +11,7 @@ const ExpenseListItem = ({ id, description, amount, createdAt }) => (
             <h3>{description}</h3>
         </NavLink>
         <p>
-            {numeral(amount / 100).format('$0,0.00')} 
-            - 
-            {moment(createdAt).format('MMMM Do, YYYY')}, {moment(createdAt).fromNow()}
+            {numeral(amount / 100).format('$0,0.00')} - {moment(createdAt).format('MMMM Do, YYYY')}, {moment(createdAt).fromNow()}
         </p>
     </div>
 );
